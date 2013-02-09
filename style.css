@@ -84,13 +84,13 @@ body {
 .card {
   -webkit-perspective: 300px;
   -moz-perspective: 300px;
-  width: 56px;
-  height: 88px;
+  width: 65px;
+  height: 95px;
   position: absolute;
   -moz-transition: all .3s ease;
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
-  transition: all .3s ease;
+  transition: all .4s ease;
   cursor: pointer;
 }
 
@@ -235,6 +235,7 @@ body {
 
 .front {
   background: url(./images/card.png) 0 0;
+  background-color: #00A2FF;
   z-index: 10;
   border-radius: 4px;
 }
